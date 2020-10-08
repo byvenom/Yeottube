@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Yeottube/static/css/main.986506da.chunk.css",
+    "main.js": "/Yeottube/static/js/main.68cf89ca.chunk.js",
+    "main.js.map": "/Yeottube/static/js/main.68cf89ca.chunk.js.map",
+    "runtime-main.js": "/Yeottube/static/js/runtime-main.7c45409f.js",
+    "runtime-main.js.map": "/Yeottube/static/js/runtime-main.7c45409f.js.map",
+    "static/css/2.051905ae.chunk.css": "/Yeottube/static/css/2.051905ae.chunk.css",
+    "static/js/2.f91a18c7.chunk.js": "/Yeottube/static/js/2.f91a18c7.chunk.js",
+    "static/js/2.f91a18c7.chunk.js.map": "/Yeottube/static/js/2.f91a18c7.chunk.js.map",
+    "index.html": "/Yeottube/index.html",
+    "precache-manifest.7cc10bc7e99be299ce1c87fa29fe05a7.js": "/Yeottube/precache-manifest.7cc10bc7e99be299ce1c87fa29fe05a7.js",
+    "service-worker.js": "/Yeottube/service-worker.js",
+    "static/css/2.051905ae.chunk.css.map": "/Yeottube/static/css/2.051905ae.chunk.css.map",
+    "static/css/main.986506da.chunk.css.map": "/Yeottube/static/css/main.986506da.chunk.css.map",
+    "static/js/2.f91a18c7.chunk.js.LICENSE.txt": "/Yeottube/static/js/2.f91a18c7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c45409f.js",
+    "static/css/2.051905ae.chunk.css",
+    "static/js/2.f91a18c7.chunk.js",
+    "static/css/main.986506da.chunk.css",
+    "static/js/main.68cf89ca.chunk.js"
+  ]
+}
