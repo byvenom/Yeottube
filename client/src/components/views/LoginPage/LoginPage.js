@@ -5,7 +5,7 @@ import { Formik } from 'formik';
 import * as Yup from 'yup';
 import { Form, Input, Button, Checkbox, Typography } from 'antd';
 import { useDispatch } from "react-redux";
-import { SmileOutlined } from '@ant-design/icons';
+import { Icon } from '@ant-design/compatible';
 const { Title } = Typography;
 
 function LoginPage(props) {
@@ -87,13 +87,12 @@ function LoginPage(props) {
               <Form.Item required>
                 <Input
                   id="email"
-<<<<<<< HEAD
-                  prefix={<SmileOutlined type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
-                  placeholder="Enter your email"
-=======
+
+                 
+
                   prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
                   placeholder="이메일을 입력하세요."
->>>>>>> b91ebf440c1d868d708319924ff201ca0808a048
+
                   type="email"
                   value={values.email}
                   onChange={handleChange}
@@ -110,13 +109,8 @@ function LoginPage(props) {
               <Form.Item required>
                 <Input
                   id="password"
-<<<<<<< HEAD
-                  prefix={<SmileOutlined type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
-                  placeholder="Enter your password"
-=======
                   prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
                   placeholder="패스워드를 입력하세요"
->>>>>>> b91ebf440c1d868d708319924ff201ca0808a048
                   type="password"
                   value={values.password}
                   onChange={handleChange}

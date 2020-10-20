@@ -1,5 +1,5 @@
 import React from 'react'
-import { SmileOutlined } from '@ant-design/icons';
+import { Icon } from '@ant-design/compatible';
 
 import './all.css'
 
@@ -10,11 +10,9 @@ function Footer() {
             flexDirection: 'column', alignItems: 'center',
             justifyContent: 'center', fontSize:'1rem'
         }}>
-<<<<<<< HEAD
-           <p> Happy Coding  <SmileOutlined type="smile" /></p>
-=======
+           
            <p> 엿장수  <Icon type="smile" /></p>
->>>>>>> b91ebf440c1d868d708319924ff201ca0808a048
+
         </div>
     )
 }
