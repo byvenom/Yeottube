@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import LeftMenu from './Sections/LeftMenu';
 import RightMenu from './Sections/RightMenu';
 import { Drawer, Button } from 'antd';
-import { Icon } from '@ant-design/compatible';
+import { Icon } from 'antd';
 import './Sections/Navbar.css';
 import logo from './img/you.png'
 const der={
@@ -43,7 +43,7 @@ function NavBar(props) {
           type="primary"
           onClick={showDrawer}
         >
-          <Icon type="align-right" />
+          <Icon type="align-rihgt" />
         </Button>
         <Drawer
           title="Basic Drawer"
