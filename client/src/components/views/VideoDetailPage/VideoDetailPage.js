@@ -5,7 +5,7 @@ import SideVideo from './Sections/SideVideo';
 import Subscribe from './Sections/Subscribe';
 import Comment from './Sections/Comment';
 import LikeDislikes from './Sections/LikeDislikes';
-import { useSelector} from 'react-redux'
+
 import "./vd.css";
 
 
@@ -13,7 +13,7 @@ import "./vd.css";
 
 function VideoDetailPage(props) {
     const videoId = props.match.params.videoId;
-    const user = useSelector(state =>state.user);
+   
     const variable = { videoId:videoId }
    
     const [VideoDetail, setVideoDetail] = useState([])

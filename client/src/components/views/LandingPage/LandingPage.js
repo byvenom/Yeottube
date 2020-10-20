@@ -1,9 +1,9 @@
 import React,{useEffect, useState} from 'react'
-import { FaCode } from "react-icons/fa"
+
 import {Card, Avatar, Col, Typography,Row} from 'antd';
 import axios from 'axios';
 import moment from 'moment';
-import { Icon } from '@ant-design/compatible';
+
 import 'moment/locale/ko'
 const {Title} = Typography;
 const { Meta} = Card;
