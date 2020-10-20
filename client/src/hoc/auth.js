@@ -15,7 +15,12 @@ export default function (SpecificComponent, option, adminRoute = null) {
                 //Not Loggined in Status 
                 if (!response.payload.isAuth) {
                     if (option) {
+                        
                         props.history.push('/login')
+                       
+                            alert('로그인이 필요합니다.')
+                       
+                        
                     }
                     //Loggined in Status 
                 } else {

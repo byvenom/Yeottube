@@ -47,7 +47,7 @@ function SingleComment(props) {
             <Comment
                 actions={actions}
                 author={props.comment.writer? props.comment.writer.name:""}
-                avatar={<Avatar src={props.comment.writer?props.comment.writer.image:""} alt />}
+                avatar={<Avatar src={props.comment.writer?props.comment.writer.image:""} alt="" />}
                 content={ <p> {props.comment.content}</p>}
             />
             {OpenReply &&
@@ -60,8 +60,8 @@ function SingleComment(props) {
 
                 
                 />
-                <br />
-                <button style={{ width:'20%' ,height:'52px'} } onClick={onSubmit}>Submit</button>
+                <br /><br />
+                <button style={{ width:'20%' ,height:'52px'} } onClick={onSubmit}>작성</button>
 
             </form>
             }

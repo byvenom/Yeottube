@@ -15,9 +15,9 @@ const img ={
   height:"16px"
 }
 
-function NavBar() {
+function NavBar(props) {
   const [visible, setVisible] = useState(false)
-
+ 
   const showDrawer = () => {
     setVisible(true)
   };
