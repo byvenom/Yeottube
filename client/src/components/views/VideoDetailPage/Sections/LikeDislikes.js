@@ -1,6 +1,7 @@
 import React , {useEffect,useState} from 'react'
-import { Tooltip, Icon} from 'antd'
+import { Tooltip} from 'antd'
 import Axios from 'axios'
+import { SmileOutlined  } from '@ant-design/icons';
 
 
 
@@ -115,7 +116,7 @@ function LikeDislikes(props) {
         <div>
             <span key="comment-basic-like">
                 <Tooltip title="Like">
-                    <Icon type="like"
+                    <SmileOutlined type="like"
                         theme={LikeAction ==='liked'? 'filled' : 'outlined'}
                         onClick={onLike}
                     />
@@ -125,7 +126,7 @@ function LikeDislikes(props) {
 
             <span key="comment-basic-dislike">
                 <Tooltip title="Dislike">
-                    <Icon type="dislike"
+                    <SmileOutlined type="dislike"
                         theme={DisLikeAction ==='disliked'? 'filled' : 'outlined'}
                         onClick={onDislike}
                     />

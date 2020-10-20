@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import LeftMenu from './Sections/LeftMenu';
 import RightMenu from './Sections/RightMenu';
-import { Drawer, Button, Icon } from 'antd';
+import { Drawer, Button } from 'antd';
+import { SmileOutlined } from '@ant-design/icons';
 import './Sections/Navbar.css';
 import logo from './img/you.png'
 const der={
@@ -42,7 +43,7 @@ function NavBar() {
           type="primary"
           onClick={showDrawer}
         >
-          <Icon type="align-right" />
+          <SmileOutlined type="align-right" />
         </Button>
         <Drawer
           title="Basic Drawer"
